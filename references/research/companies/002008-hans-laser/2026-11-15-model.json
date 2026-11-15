@@ -1,0 +1,260 @@
+{
+  "version": "2026-11-15 v1",
+  "ticker": "002008.SZ",
+  "currency": "CNY",
+  "raw_money_unit": "yuan",
+  "decimal_encoding": "decimal strings; ratios are fractions unless pct suffix",
+  "sources": {
+    "annual_2025": {
+      "date": "2026-04-17",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225114033.PDF",
+      "downloaded_pdf_sha256": "2887d0d3d70b39bf0a3929774778d4780329dfc266a39bc7de625079768dec15"
+    },
+    "q1_2026": {
+      "date": "2026-04-21",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225124464.PDF"
+    },
+    "half_2026": {
+      "date": "2026-08-21",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485259.PDF",
+      "downloaded_pdf_sha256": "b00b4a70651b603567d411cc8ece31f9937e44203390fec88060c6baac119176"
+    },
+    "q3_2026": {
+      "date": "2026-10-23",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225615794.PDF",
+      "downloaded_pdf_sha256": "e45b8c0eadb5ba29bc3452b7de9e52e8194c6b3b5e488d2139a3f11d462784f5"
+    },
+    "cnc_q3_2026": {
+      "date": "2026-10-21",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612771.PDF",
+      "downloaded_pdf_sha256": "ab49683a3db29cb526bb40ca920bb66ab29d4c664a6c5af687de449de913b941"
+    },
+    "orders": {
+      "date": "2026-10-16",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606089.PDF"
+    },
+    "ir": {
+      "date": "2026-10-08",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225597526.PDF"
+    },
+    "pledge": {
+      "date": "2026-11-14",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12705690&stockid=002008"
+    },
+    "parent_price": {
+      "date": "2026-11-13",
+      "url": "https://cn.investing.com/equities/hans-laser-tech-a-historical-data"
+    },
+    "cnc_price": {
+      "date": "2026-11-13",
+      "url": "https://cn.investing.com/equities/shenzhen-han%27s-cnc-technology-historical-data"
+    },
+    "customer_capex": {
+      "date": "2026-10-30",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644765.PDF"
+    }
+  },
+  "market": {
+    "date": "2026-11-13",
+    "price": "51.80",
+    "shares_asof": "2026-09-30",
+    "shares": "1029603408",
+    "market_cap": "53333456534.40"
+  },
+  "raw": {
+    "2025FY": {
+      "source": "annual_2025",
+      "revenue": "18758866083.94",
+      "net_parent": "1189684341.25",
+      "deduct_net_parent": "810479085.79",
+      "cfo": "1469219991.65"
+    },
+    "2025M9": {
+      "source": "q3_2026_and_annual_2025_quarters",
+      "revenue": "12712822912.22",
+      "net_parent": "863377098.97",
+      "deduct_net_parent": "568395537.20",
+      "cfo": "-862368917.33"
+    },
+    "2026Q1": {
+      "source": "q1_2026",
+      "revenue": "5134891511.85",
+      "net_parent": "354067494.53",
+      "deduct_net_parent": "408265775.87",
+      "cfo": "-715953492.60"
+    },
+    "2026H1": {
+      "source": "half_2026",
+      "revenue": "13412802390.25",
+      "net_parent": "1287969666.61",
+      "deduct_net_parent": "1408755747.93",
+      "cfo": "-682881874.99",
+      "cost": "8725753552.94"
+    },
+    "2026M9": {
+      "source": "q3_2026",
+      "revenue": "21474290338.33",
+      "net_parent": "2177364859.14",
+      "deduct_net_parent": "2301276096.57",
+      "cfo": "226591913.04",
+      "cost": "13847088466.15",
+      "cash_capex": "714664273.64",
+      "net_consolidated": "2675123056.45",
+      "rd_expense": "1835985067.38"
+    },
+    "2026Q3": {
+      "source": "q3_2026",
+      "revenue": "8061487948.08",
+      "net_parent": "889395192.53",
+      "deduct_net_parent": "892520348.64",
+      "cfo": "909473788.03",
+      "cfo_source": "derived: 2026M9 minus 2026H1"
+    }
+  },
+  "balance_sheet": {
+    "source": "q3_2026",
+    "date": "2026-09-30",
+    "cash": "9882187583.07",
+    "receivables_net": "13200509935.90",
+    "inventory_net": "7748093628.71",
+    "contract_liabilities": "2241229147.18",
+    "contract_assets": "788896611.91",
+    "short_borrowings": "1878529344.82",
+    "long_borrowings": "1286958561.29",
+    "current_noncurrent_liabilities": "1648149244.01",
+    "lease_liabilities": "242684501.99",
+    "goodwill": "712562530.77",
+    "assets": "50850460015.78",
+    "liabilities": "24488442867.50",
+    "equity_parent": "22275515088.73"
+  },
+  "half_balance_sheet": {
+    "source": "half_2026",
+    "receivables_net": "12084111391.35",
+    "inventory_net": "7233697739.80"
+  },
+  "cnc": {
+    "source": "cnc_q3_2026",
+    "held_A_shares": "355868100",
+    "total_A_plus_H_shares": "489007741",
+    "ownership_pct_disclosed": "72.77",
+    "q3_revenue": "2856027055.73",
+    "q3_net_parent": "587262181.12",
+    "m9_revenue": "7840947868.94",
+    "m9_net_parent": "1544124605.86",
+    "m9_deduct_net_parent": "1535397367.48",
+    "m9_cfo": "-811243367.55",
+    "close_A_price": "137.36",
+    "close_date": "2026-11-13"
+  },
+  "derived": {
+    "2026Q2": {
+      "revenue": "8277910878.40",
+      "net_parent": "933902172.08",
+      "deduct_net_parent": "1000489972.06",
+      "cfo": "33071617.61"
+    },
+    "TTM_ending_20260930": {
+      "revenue": "27520333510.05",
+      "net_parent": "2503672101.42",
+      "deduct_net_parent": "2543359645.16",
+      "cfo": "2558180822.02"
+    },
+    "ttm_pe": "21.30209323503306507519616790",
+    "ttm_deduct_pe": "20.96968733300981899739092108",
+    "ttm_ps": "1.937965487043369109433726174",
+    "pb": "2.394263671208364181644368095",
+    "q3_revenue_qoq": "-0.0261446315983811860701513010",
+    "q3_net_qoq": "-0.0476570039995446543195708808",
+    "q3_deduct_qoq": "-0.1079167472290516822553988568",
+    "q3_cfo_to_parent_net_different_ownership": "1.022575561087623860938928208",
+    "m9_cfo_to_consolidated_net": "0.08470336065238693367473480437",
+    "m9_cfo_to_parent_net_different_ownership": "0.1040670386907491715807539429",
+    "m9_cfo_minus_cash_capex_not_strict_fcfe": "-488072360.60",
+    "m9_gross_margin": "0.3551782970246060180646273245",
+    "q3_gross_margin": "0.3647159251252437307483003759",
+    "receivables_qoq": "0.092385654881428510723954152",
+    "inventory_qoq": "0.071111056531955980138367130",
+    "q3_runrate_pe_sensitivity_only": "14.99149562037941320600135536",
+    "q3_runrate_deduct_pe_sensitivity_only": "14.93900296381706482187348239",
+    "liability_assets_ratio": "0.4815776073589246853593097971"
+  },
+  "sotp_reference_only": {
+    "held_A_shares_quote_reference_value": "48882042216.00",
+    "parent_market_cap_minus_held_value_not_remaining_business_fair_value": "4451414318.40",
+    "held_value_haircut_assumption": "0.20",
+    "parent_market_cap_minus_haircut_held_value": "14227822761.600",
+    "q3_cnc_attributed_profit_proxy_not_audited_segment": "427350689.201024",
+    "note": "Reference only; no final SOTP target without deconsolidated debt/tax/holding obligations; do not add to whole-group PE."
+  },
+  "scenarios": [
+    {
+      "name": "bear",
+      "classification": "independent_research_assumptions_not_guidance_or_consensus",
+      "horizon": "2027-12-31",
+      "revenue_cny_yi": "300",
+      "normalized_parent_net_margin": ".08",
+      "normalized_parent_net_profit_cny_yi": "24.00",
+      "pe": "15",
+      "terminal_price_cny_not_discounted": "34.96491923033727953627752562",
+      "price_change_ex_dividend_fee_tax": "-0.3250015592598980784502408181"
+    },
+    {
+      "name": "base",
+      "classification": "independent_research_assumptions_not_guidance_or_consensus",
+      "horizon": "2027-12-31",
+      "revenue_cny_yi": "350",
+      "normalized_parent_net_margin": ".11",
+      "normalized_parent_net_profit_cny_yi": "38.50",
+      "pe": "20",
+      "terminal_price_cny_not_discounted": "74.78607724266584789703804088",
+      "price_change_ex_dividend_fee_tax": "0.443746664916329109981429361"
+    },
+    {
+      "name": "bull",
+      "classification": "independent_research_assumptions_not_guidance_or_consensus",
+      "horizon": "2027-12-31",
+      "revenue_cny_yi": "410",
+      "normalized_parent_net_margin": ".12",
+      "normalized_parent_net_profit_cny_yi": "49.20",
+      "pe": "25",
+      "terminal_price_cny_not_discounted": "119.4634740369857050822815458",
+      "price_change_ex_dividend_fee_tax": "1.306244672528681565295010537"
+    }
+  ],
+  "reverse": {
+    "doubling_price": "103.60",
+    "profit_cny_yi_for_double_at_pe20": "53.3334565344",
+    "profit_cny_yi_for_double_at_pe25": "42.66676522752",
+    "base_profit_price_at_pe15": "56.08955793199938592277853066"
+  },
+  "pledge": {
+    "date": "2026-11-14",
+    "source": "pledge",
+    "gao_pledged_pct_of_own_shares": "98.15",
+    "holding_company_pledged_pct_of_own_shares": "54.16",
+    "combined_pledged_pct_of_combined_holdings": "71.65",
+    "note": "Shareholder financing is not listed-company debt."
+  },
+  "management_orders": {
+    "source": "orders",
+    "end_2025_undelivered_cny_yi_approx": "89",
+    "2026M9_new_cny_yi_approx": "243",
+    "yoy_approx": "0.90",
+    "note": "Do not infer exact end backlog by subtracting revenue; tax/cancellation/scope unknown."
+  },
+  "formulas": {
+    "quarter": "Q2=H1-Q1;Q3=M9-H1",
+    "ttm": "2025FY+2026M9-2025M9",
+    "terminal_price": "revenue*normalized_parent_net_margin/total_parent_shares*terminal_PE"
+  },
+  "limitations": [
+    "No calibrated scenario probabilities, price floor or verified consensus.",
+    "Terminal prices are not discounted present intrinsic values.",
+    "Share count fixed; future repurchase/issuance/dilution not projected.",
+    "Normalized profit retains share compensation, tax and minority ownership effects.",
+    "No extra unverified investment/new-theme gains.",
+    "Group cash flow includes minorities; parent-profit ratios flagged as ownership mismatch.",
+    "Historical Q4 cash seasonality is evidence, not a guarantee for 2026."
+  ]
+}

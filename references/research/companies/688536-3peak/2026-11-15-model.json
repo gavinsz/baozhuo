@@ -1,0 +1,226 @@
+{
+  "version": "2026-11-15 v1",
+  "ticker": "688536.SH",
+  "currency": "CNY",
+  "raw_money_unit": "yuan",
+  "decimal_encoding": "decimal strings; ratios are fractions unless suffixed pct",
+  "sources": {
+    "annual_2025": {
+      "date": "2026-03-31",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225060234.PDF",
+      "downloaded_pdf_sha256": "d28e55b545335aa324d9481177776ba5859a820da5097e0a101736d8d7636a3d"
+    },
+    "half_2026": {
+      "date": "2026-08-20",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12505957&stockid=688536",
+      "downloaded_pdf_sha256": "69b21412ed8608b6a89a57f5f1655fba9af9b290793836015878e2d9d934f6f0"
+    },
+    "q3_2026": {
+      "date": "2026-10-28",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12666722&stockid=688536",
+      "downloaded_pdf_sha256": "5fa0f9c00334da990e39353888882c8e171317f7084f95fb5912253a336f0a6e"
+    },
+    "ir_20261028": {
+      "date": "2026-10-28",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12672283&stockid=688536"
+    },
+    "aura_20261107": {
+      "date": "2026-11-07",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225662629.PDF",
+      "downloaded_pdf_sha256": "b9fb8e9a3a0219e027e770ca06be50d3a9ac7d816a1deac826cdac46dcfd7e1c"
+    },
+    "price": {
+      "date": "2026-11-13",
+      "url": "https://cn.investing.com/equities/3peak-historical-data"
+    },
+    "shares": {
+      "date": "2026-10-01",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12629769&stockid=688536"
+    }
+  },
+  "market": {
+    "close_date": "2026-11-13",
+    "close_price": "236.64",
+    "shares_asof": "2026-09-30",
+    "shares": "138075483",
+    "market_cap_cny": "32674182297.12"
+  },
+  "raw": {
+    "2025FY": {
+      "source": "annual_2025",
+      "revenue": "2142091293.26",
+      "net_profit_parent": "172991828.80",
+      "net_profit_parent_ex_nonrecurring": "115914391.97",
+      "cfo": "147770952.44"
+    },
+    "2025M9": {
+      "source": "q3_2026",
+      "revenue": "1530764511.00",
+      "net_profit_parent": "126009880.99",
+      "net_profit_parent_ex_nonrecurring": "82909047.57",
+      "cfo": "127430255.88"
+    },
+    "2026H1": {
+      "source": "half_2026",
+      "revenue": "1605824436.86",
+      "net_profit_parent": "307757831.93",
+      "net_profit_parent_ex_nonrecurring": "270411159.07",
+      "cfo": "355226263.57"
+    },
+    "2026Q2": {
+      "source": "half_2026",
+      "revenue": "903520070.36",
+      "net_profit_parent": "202357322.33",
+      "net_profit_parent_ex_nonrecurring": "176959589.24",
+      "cfo": "155977713.28"
+    },
+    "2026M9": {
+      "source": "q3_2026",
+      "revenue": "2692101079.11",
+      "net_profit_parent": "610299680.41",
+      "net_profit_parent_ex_nonrecurring": "554572312.25",
+      "cfo": "554230935.37",
+      "long_asset_cash_capex": "237248642.53",
+      "rd": "558822964.18"
+    },
+    "2026Q3": {
+      "source": "q3_2026",
+      "revenue": "1086276642.25",
+      "net_profit_parent": "302541848.48",
+      "net_profit_parent_ex_nonrecurring": "284161153.18",
+      "cfo": "199004671.80"
+    }
+  },
+  "balance_sheet": {
+    "source": "q3_2026",
+    "date": "2026-09-30",
+    "cash": "653577302.96",
+    "trading_financial_assets": "2736977224.48",
+    "receivables_net": "478075899.39",
+    "inventory_net": "618345044.92",
+    "goodwill": "684644752.00",
+    "assets": "7875581179.69",
+    "liabilities": "937279889.61",
+    "equity_parent": "6938301290.08"
+  },
+  "derived": {
+    "2026Q1": {
+      "revenue": "702304366.50",
+      "net_profit_parent": "105400509.60",
+      "net_profit_parent_ex_nonrecurring": "93451569.83",
+      "cfo": "199248550.29",
+      "method": "2026H1 minus 2026Q2"
+    },
+    "ttm_ending_20260930": {
+      "revenue": "3303427861.37",
+      "net_profit_parent": "657281628.22",
+      "net_profit_parent_ex_nonrecurring": "587577656.65",
+      "cfo": "574571631.93"
+    },
+    "quarters": [
+      {
+        "revenue": "702304366.50",
+        "net_profit_parent": "105400509.60",
+        "net_profit_parent_ex_nonrecurring": "93451569.83",
+        "cfo": "199248550.29",
+        "period": "2026Q1",
+        "gross_margin_pct": "47.66",
+        "net_margin_pct": "15.00781066267227885731791189",
+        "deduct_margin_pct": "13.30642016305903175671057144",
+        "cfo_to_net": "1.890394563044883039161321095"
+      },
+      {
+        "revenue": "903520070.36",
+        "net_profit_parent": "202357322.33",
+        "net_profit_parent_ex_nonrecurring": "176959589.24",
+        "cfo": "155977713.28",
+        "period": "2026Q2",
+        "gross_margin_pct": "50.05",
+        "net_margin_pct": "22.39654977994815552820942208",
+        "deduct_margin_pct": "19.58557369616503756178939830",
+        "cfo_to_net": "0.7708034059950391912264833535"
+      },
+      {
+        "revenue": "1086276642.25",
+        "net_profit_parent": "302541848.48",
+        "net_profit_parent_ex_nonrecurring": "284161153.18",
+        "cfo": "199004671.80",
+        "period": "2026Q3",
+        "gross_margin_pct": "52.31",
+        "net_margin_pct": "27.85127072725658618938236679",
+        "deduct_margin_pct": "26.15918838054165110627923013",
+        "cfo_to_net": "0.6577756855781077628722234612"
+      }
+    ],
+    "ttm_pe": "49.71108409892077722616252559",
+    "ttm_deduct_pe": "55.60827905439382231145293159",
+    "ttm_ps": "9.890993134497975507701195435",
+    "pb": "4.709248118676503906982378923",
+    "q3_run_rate_pe_sensitivity_only": "26.99972124623279818733789472",
+    "q3_run_rate_deduct_pe_sensitivity_only": "28.74617266599312017896140212",
+    "cash_plus_trading_cny": "3390554527.44",
+    "m9_cfo_to_net": "0.9081291587727312013389556545",
+    "m9_cfo_minus_cash_capex_not_strict_fcfe": "316982292.84",
+    "liability_to_assets": "0.1190108854476811290374866214",
+    "m9_revenue_yoy": "0.758664418834308865160253248"
+  },
+  "scenarios": [
+    {
+      "name": "bear",
+      "classification": "research_assumption_not_guidance",
+      "horizon": "2027-12-31",
+      "revenue_cny_yi": "38",
+      "normalized_net_profit_parent_margin": "0.18",
+      "normalized_net_profit_parent_cny_yi": "6.84",
+      "pe": "25",
+      "eps_cny": "4.953812111596958889508284393",
+      "terminal_price_cny_not_discounted": "123.8453027899239722377071098",
+      "price_change_excluding_dividend_fees_tax": "-0.4766510193123564391577623825"
+    },
+    {
+      "name": "base",
+      "classification": "research_assumption_not_guidance",
+      "horizon": "2027-12-31",
+      "revenue_cny_yi": "46",
+      "normalized_net_profit_parent_margin": "0.24",
+      "normalized_net_profit_parent_cny_yi": "11.04",
+      "pe": "35",
+      "eps_cny": "7.995626566086319611136178318",
+      "terminal_price_cny_not_discounted": "279.8469298130211863897662411",
+      "price_change_excluding_dividend_fees_tax": "0.182585065132780537482108862"
+    },
+    {
+      "name": "bull",
+      "classification": "research_assumption_not_guidance",
+      "horizon": "2027-12-31",
+      "revenue_cny_yi": "55",
+      "normalized_net_profit_parent_margin": "0.28",
+      "normalized_net_profit_parent_cny_yi": "15.40",
+      "pe": "40",
+      "eps_cny": "11.15331966646098931263561106",
+      "terminal_price_cny_not_discounted": "446.1327866584395725054244424",
+      "price_change_excluding_dividend_fees_tax": "0.885280538617476219174376447"
+    }
+  ],
+  "reverse_valuation": {
+    "doubling_price": "473.28",
+    "profit_cny_yi_for_double_at_pe35": "18.67096131264",
+    "profit_cny_yi_for_double_at_pe40": "16.33709114856",
+    "base_profit_price_at_pe25": "199.8906641521579902784044580"
+  },
+  "formulas": {
+    "quarter": "cumulative current minus cumulative prior; Q1=H1-Q2",
+    "ttm": "2025FY+2026M9-2025M9",
+    "market_cap": "price*total_shares",
+    "terminal_price": "2027_revenue*normalized_parent_net_margin/total_shares*terminal_PE"
+  },
+  "limitations": [
+    "No scenario probability or consensus estimate is asserted.",
+    "All 2027 inputs are independent assumptions; terminal prices are not current intrinsic values.",
+    "Share count fixed; future dilution, dividends, fees and taxes on returns not projected.",
+    "No added unverified Ningbo Aura investment income or consolidation.",
+    "Normalized profit includes share compensation costs; permanent zero tax not assumed.",
+    "No separate excess-cash add-on to PE values.",
+    "No DCF conclusion without reinvestment and cash conversion forecasts."
+  ]
+}
